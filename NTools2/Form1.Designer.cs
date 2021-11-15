@@ -37,6 +37,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
@@ -57,7 +58,7 @@
             this.exit.FlatAppearance.BorderSize = 0;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.ForeColor = System.Drawing.Color.White;
-            this.exit.Location = new System.Drawing.Point(752, 13);
+            this.exit.Location = new System.Drawing.Point(656, 19);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(24, 26);
             this.exit.TabIndex = 1;
@@ -72,7 +73,7 @@
             this.efi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.efi.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.efi.ForeColor = System.Drawing.Color.White;
-            this.efi.Location = new System.Drawing.Point(553, 80);
+            this.efi.Location = new System.Drawing.Point(21, 132);
             this.efi.Name = "efi";
             this.efi.Size = new System.Drawing.Size(127, 46);
             this.efi.TabIndex = 2;
@@ -87,7 +88,7 @@
             this.onedriveremover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.onedriveremover.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.onedriveremover.ForeColor = System.Drawing.Color.White;
-            this.onedriveremover.Location = new System.Drawing.Point(287, 80);
+            this.onedriveremover.Location = new System.Drawing.Point(420, 80);
             this.onedriveremover.Name = "onedriveremover";
             this.onedriveremover.Size = new System.Drawing.Size(127, 46);
             this.onedriveremover.TabIndex = 3;
@@ -102,7 +103,7 @@
             this.progressBar1.Location = new System.Drawing.Point(21, 64);
             this.progressBar1.MarqueeAnimationSpeed = 500;
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(755, 10);
+            this.progressBar1.Size = new System.Drawing.Size(659, 10);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 4;
             // 
@@ -128,7 +129,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(154, 80);
+            this.button2.Location = new System.Drawing.Point(287, 80);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 46);
             this.button2.TabIndex = 7;
@@ -154,7 +155,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(420, 80);
+            this.button3.Location = new System.Drawing.Point(553, 80);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 46);
             this.button3.TabIndex = 9;
@@ -162,13 +163,29 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(154, 80);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(127, 46);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Fix Network Issues";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // NTools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(696, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -198,6 +215,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 

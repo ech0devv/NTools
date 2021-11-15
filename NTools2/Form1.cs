@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NTools2
@@ -155,6 +149,27 @@ namespace NTools2
 
             }
 
+            progressBar1.Value = 100;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            progressBar1.Value = 0;
+            string strCmdText;
+            strCmdText = "/C netsh winsock reset";
+            Process p = System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+            while (!p.HasExited)
+            {
+
+            }
+            progressBar1.Value += 50;
+            strCmdText = "/C netsh int ip reset";
+            p = System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+            while (!p.HasExited)
+            {
+
+            }
+            MessageBox.Show("You need to restart your computer to finish the process.", "NTools", MessageBoxButtons.OK, MessageBoxIcon.Information);
             progressBar1.Value = 100;
         }
     }
