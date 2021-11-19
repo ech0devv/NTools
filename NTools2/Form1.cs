@@ -34,6 +34,14 @@ namespace NTools2
         private void Form1_Load(object sender, EventArgs e)
         {
             title.Font = quicksand;
+            quicksand = new Font(fonts.Families[0], 12.0F);
+            button1.Font = quicksand;
+            button2.Font= quicksand;
+            button3.Font= quicksand;
+            button4.Font= quicksand;                
+            onedriveremover.Font = quicksand;
+            efi.Font = quicksand;
+
         }
 
         private void exit_Click(object sender, EventArgs e)

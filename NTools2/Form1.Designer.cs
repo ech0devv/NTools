@@ -71,13 +71,14 @@
             this.efi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.efi.FlatAppearance.BorderSize = 0;
             this.efi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.efi.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.efi.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.efi.ForeColor = System.Drawing.Color.White;
-            this.efi.Location = new System.Drawing.Point(21, 132);
+            this.efi.Location = new System.Drawing.Point(21, 340);
             this.efi.Name = "efi";
-            this.efi.Size = new System.Drawing.Size(127, 46);
+            this.efi.Size = new System.Drawing.Size(659, 46);
             this.efi.TabIndex = 2;
             this.efi.Text = "Mount EFI Partition";
+            this.efi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.efi.UseVisualStyleBackColor = false;
             this.efi.Click += new System.EventHandler(this.efi_Click);
             // 
@@ -86,13 +87,14 @@
             this.onedriveremover.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.onedriveremover.FlatAppearance.BorderSize = 0;
             this.onedriveremover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.onedriveremover.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onedriveremover.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.onedriveremover.ForeColor = System.Drawing.Color.White;
-            this.onedriveremover.Location = new System.Drawing.Point(420, 80);
+            this.onedriveremover.Location = new System.Drawing.Point(21, 236);
             this.onedriveremover.Name = "onedriveremover";
-            this.onedriveremover.Size = new System.Drawing.Size(127, 46);
+            this.onedriveremover.Size = new System.Drawing.Size(659, 46);
             this.onedriveremover.TabIndex = 3;
             this.onedriveremover.Text = "Remove OneDrive";
+            this.onedriveremover.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.onedriveremover.UseVisualStyleBackColor = false;
             this.onedriveremover.Click += new System.EventHandler(this.onedriveremover_Click);
             // 
@@ -110,15 +112,17 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(21, 80);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 46);
+            this.button1.Size = new System.Drawing.Size(659, 46);
             this.button1.TabIndex = 6;
             this.button1.Text = "Clean Disk";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -127,13 +131,14 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(287, 80);
+            this.button2.Location = new System.Drawing.Point(21, 184);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 46);
+            this.button2.Size = new System.Drawing.Size(659, 46);
             this.button2.TabIndex = 7;
             this.button2.Text = "Verify System File Integrity";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -153,13 +158,14 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(553, 80);
+            this.button3.Location = new System.Drawing.Point(21, 288);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 46);
+            this.button3.Size = new System.Drawing.Size(659, 46);
             this.button3.TabIndex = 9;
             this.button3.Text = "Remove Cortana";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -168,13 +174,14 @@
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(154, 80);
+            this.button4.Location = new System.Drawing.Point(21, 132);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(127, 46);
+            this.button4.Size = new System.Drawing.Size(659, 46);
             this.button4.TabIndex = 10;
             this.button4.Text = "Fix Network Issues";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -184,7 +191,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.ClientSize = new System.Drawing.Size(696, 450);
+            this.ClientSize = new System.Drawing.Size(696, 409);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
